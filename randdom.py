@@ -1,6 +1,10 @@
 #使用import載入，並使用random產生隨機變數
 import random
-r = random.randint(1, 100)
+a = input('請輸入隨機數字的初值: ')
+b = input('請輸入隨機數字的終值: ')
+a = int(a)
+b = int(b)
+r = random.randint(a, b)
 count = 0
 while True:
 	count += 1 # = count + 1
